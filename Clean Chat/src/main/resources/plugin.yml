@@ -1,0 +1,13 @@
+name: CleanChat
+version: 1.0
+main: com.lion.cleanchat.CleanChat
+api-version: 1.19
+commands:
+  cleanchat:
+    description: Manage the CleanChat plugin
+    usage: /<command> <addword|removeword|list|toggle|reload>
+    permission: cleanchat.admin
+permissions:
+  cleanchat.admin:
+    description: Allows managing CleanChat plugin
+    default: op
